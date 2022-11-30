@@ -38,5 +38,7 @@
           return false;
       }
     }
+    (function () {
   //设置生效日期区间
   silence.isDuringDate('2022/11/05', '2022/12/01')
+    })
