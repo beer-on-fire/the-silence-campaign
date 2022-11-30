@@ -1,5 +1,5 @@
 
-  var date = {
+  var silence = {
       isDuringDate: function (beginDateStr, endDateStr) {
           var curDate = new Date(),
               beginDate = new Date(beginDateStr),
@@ -39,4 +39,4 @@
       }
     }
   //设置生效日期区间
-  date.isDuringDate('2022/11/05', '2022/12/01')
+  silence.isDuringDate('2022/11/05', '2022/12/01')
